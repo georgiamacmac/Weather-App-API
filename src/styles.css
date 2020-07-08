@@ -1,0 +1,82 @@
+h1 {
+  color: rgb(135, 135, 135);
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  height: 28px;
+  line-height: 28.8px;
+  text-align: left;
+  width: 618px;
+  margin-left: 25px;
+}
+
+.time {
+  display: block;
+  margin-left: 25px;
+  color: rgb(135, 135, 135);
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 19.2px;
+  text-align: left;
+  list-style: none;
+
+  margin: 0;
+}
+
+.weatherDetails,
+.feelsLike {
+  display: block;
+  margin-left: 25px;
+  color: rgb(135, 135, 135);
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 19.2px;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+}
+.extraWeather {
+  color: rgb(135, 135, 135);
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 19.2px;
+  text-align: left;
+  list-style: none;
+  display: inLine;
+  margin-top: 28px;
+  position: relative;
+  padding: 20px;
+}
+
+.temperature {
+  color: blue;
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  height: 28px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.units {
+  position: relative;
+  display: block;
+  top: -20px;
+  margin-left: 98px;
+  font-size: 22px;
+}
+.weatherApp {
+  max-width: 400px;
+}
+
+.searchCity {
+  max-width: 400px;
+}

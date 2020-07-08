@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>weatherApp v6💥</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-App shadow-sm p-3 mb-5 bg-white rounded">
+
+
+
+<h1> testing github to netlify</h1>
+            <h1 id="new-city">Sydney</h1>
+            <ul>
+                <li class="time" id="current-date">Wednesday, 22:10</li>
+                <li class="weatherDetails" id="weather-details">Cloudy</li>
+                <li class="feelsLike" id="feels-like">Feels like: 21ºC</li>
+            </ul>
+
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="float-left ">
+                        <span class="temperature" id="current-temp"> 21 </span>
+                        <span class="units"><a href="#" id="temp-celcius">Cº</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="precipitation">
+
+                    <div class="col-6"></div>
+                    <div class="clear-fix">
+                        <div class="float">
+                            <ul class="extraWeather">
+                                <li id="precipitation">Precipitation: 0%</li>
+                                <li id="humidity">Humidity: 77%</li>
+                                <li id="wind-blowing">Wind: 8 km/hr</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2></h2>
+            <form class="searchCity" id="find-city">
+                <input type="search" placeholder="type a city.." class="form-control p-3 m-3 " id="search-bar" />
+                <button type="search" class="btn btn-primary m-3" id="button-submit">Search</button>
+
+            </form>
+            <button type="button" class="btn btn-success m-3 " id="location-button">Current City</button>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
